@@ -1,0 +1,58 @@
+PROJECT NAME: Smart Asset Tracker
+
+1. Understanding of Client Requirement:
+
+The client wants a software system to manage company assets like laptops, phones, etc. 
+The system should track which asset is assigned to which employee and allow easy monitoring and updates.
+
+2. Creative Decisions Taken:
+
+- Named the product "Smart Asset Tracker"
+- Introduced two roles: Admin and Employee
+- Added asset status (Available, Assigned, Damaged)
+- Included search and filter functionality
+- Designed it as a web-based system
+
+3. Assumptions:
+
+- Only admin can add or update assets
+- Employees can only view their assigned assets
+- Each asset has a unique ID
+- Each employee has a unique ID
+- System will be used within a company internally
+
+
+4. Features List:
+
+1. Login System  
+   - Separate login for Admin and Employee
+
+2. Dashboard  
+   - Shows total assets, assigned assets, available assets
+
+3. Add Asset  
+   - Admin can add new assets with details
+
+4. Assign Asset  
+   - Admin assigns asset to an employee
+
+5. View Assets  
+   - View all assets and their current status
+
+6. Search & Filter  
+   - Search assets by name, ID, or employee
+
+7. Update Asset Status  
+   - Change asset status (Available / Assigned / Damaged)
+
+8. Employee View  
+   - Employees can see assets assigned to them
+
+
+5. Questions for Client:
+
+- Do employees need login access?
+- Should asset history be tracked?
+- Do you need notifications for asset assignment?
+- Should damaged assets be handled differently?
+- Will this system be used on mobile devices?
