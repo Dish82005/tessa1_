@@ -1,4 +1,4 @@
--- Create Employees Table
+// Create Employees Table
 CREATE TABLE employees (
     employee_id SERIAL PRIMARY KEY,
     employee_name VARCHAR(100),
@@ -6,7 +6,7 @@ CREATE TABLE employees (
     department VARCHAR(50)
 );
 
--- Create Admins Table
+// Create Admins Table
 CREATE TABLE admins (
     admin_id SERIAL PRIMARY KEY,
     admin_name VARCHAR(100),
